@@ -1,0 +1,4 @@
+RewriteEngine On
+RewriteRule ^cars/$ controllers/cars.php?action=index
+RewriteRule ^cars/new$ controllers/cars.php?action=/new
+RewriteRule ^cars/create$ controllers/cars.php?action=/create
